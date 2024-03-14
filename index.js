@@ -12,9 +12,14 @@
    // console.log(`Au`, i) 
 //}
 
-let i = 10
+//let i = 10
 
-while (--i) {
-    console.log(`Au`, i)
+//while (--i) {
+   // console.log(`Au`, i)
     
-}
+//}
+
+do {
+    console.log(`Au`, i)
+}while (i > 18) 
+    
