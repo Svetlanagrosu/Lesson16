@@ -31,6 +31,7 @@ arrowFunc(7)
 funcExpress(8)
 funcDeclar(9)
 
+
 const arrowFunc = (str) => {
     for(let i = 0; i < str.lenght; i++) console.log(str[1])
 }
