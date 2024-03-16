@@ -1,25 +1,47 @@
-//for(let i = 0; i < 10; i++) {
-    //console.log(i,`Au`)
-//}
+//ex 1
 
-//for (let i = 10; i >=1; i--) console.log(`Au`, i)
-
-//for (let i = 10; i >=1; i-=2) console.log(`Au`, i)
-
-//let i = 10 
-
-//while (i >= 0) {
-   // console.log(`Au`, i) 
-//}
-
-//let i = 10
-
-//while (--i) {
-   // console.log(`Au`, i)
-    
-//}
-
+for (let i = 0; i<10; i++) console.log(i)
+let i = 0
+while ( i<= 10) {
+    console.log(i++)   
+}
+let j = 0
 do {
-    console.log(`Au`, i)
-}while (i > 18) 
+    console.log(j++)
+}
+while (j <=10) 
     
+//ex 2
+
+const str = 'string'
+for(let i = 0; i < str.length; i++ ) console.log(str[i])
+    
+//ex 3
+
+const arrowFunc = (num) => {
+    for(let i = 0; i <= num; i++) console.log(i)
+}
+function funcExpress(num) {
+    for(let i = 0; i <= num; i++) console.log(i)
+}
+const funcDeclar = funcion(num) {
+    for(let i = 0; i <= num; i++) console.log(i)
+}
+arrowFunc(7)
+funcExpress(8)
+funcDeclar(9)
+
+const arrowFunc = (str) => {
+    for(let i = 0; i < str.lenght; i++) console.log(str[1])
+}
+
+funcExpress(str) {
+    for(let i = 0; i < str.lenght; i++) console.log(str[i])
+}
+const funcDeclar = function(str) {
+    for(let i = 0; i < str.length; i++) console.log(str[i])
+}
+arrowFunc('string')
+funcExpress('str')
+funcDeclar('str')
+
